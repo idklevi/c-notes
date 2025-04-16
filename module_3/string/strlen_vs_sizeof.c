@@ -42,14 +42,3 @@ void main()
     */
 }
 
-/*
-    Differences Between strlen() and sizeof():
-
-    | Feature                  | strlen()                                   | sizeof()                                  |
-    |--------------------------|--------------------------------------------|-------------------------------------------|
-    | Purpose                  | Returns the length of the string (excluding '\0'). | Returns the total memory allocated to the array (including '\0'). |
-    | Includes Null Terminator | No                                         | Yes                                       |
-    | Counts Whitespace        | Yes (treats whitespace as a regular character). | Yes (includes whitespace in total size). |
-    | Unit of Measurement      | Number of characters in the string.        | Total size in bytes (characters + '\0').  |
-    | Example                  | For "Hello World", strlen() returns 11.    | For "Hello World", sizeof() returns 12.   |
-*/
